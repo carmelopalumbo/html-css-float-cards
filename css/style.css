@@ -14,9 +14,11 @@ body{
 
 .container{
   max-width: 1200px;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
+
+/* main */
 
 .container h1{
   text-align: center;
@@ -28,4 +30,17 @@ body{
 .container .intro{
   padding-top: 30px;
   text-align: center;
+}
+
+.container .row{
+  padding-top: 70px;
+}
+
+.row .col{
+  float: left;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  height: 90px;
+  width: calc(100%/3 - 80px);
+  background-color: red;
 }
