@@ -43,6 +43,7 @@ body{
   width: calc(100%/3 - 80px);
   background-color: rgb(2, 2, 27);
   line-height: 30px;
+  box-shadow: 13px -12px 32px -10px #000000;
 }
 
 
