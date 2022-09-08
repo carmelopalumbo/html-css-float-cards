@@ -14,7 +14,6 @@ body{
 
 .container{
   max-width: 1200px;
-  width: 90%;
   margin: 0 auto;
 }
 
@@ -42,5 +41,34 @@ body{
   margin-bottom: 40px;
   height: 90px;
   width: calc(100%/3 - 80px);
-  background-color: red;
+  background-color: rgb(2, 2, 27);
+  line-height: 30px;
+}
+
+
+.row .col img{
+  float: left;
+  padding-right: 10px;
+  width: 30%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.row .col .name{
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.row .col a{
+  text-decoration: none;
+  color: rgb(8, 218, 218);
+}
+
+.row .col .role{
+  font-size: 13px;
+}
+
+.row .col .name, .role{
+  color: white;
 }
